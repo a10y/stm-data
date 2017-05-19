@@ -12,6 +12,8 @@ die "Usage: $0 LOGFILE COMMAND...\n" unless (scalar @ARGV > 1);
 
 my $logfile = shift;
 
+my $keyword = shift;
+
 my $command = join " ", @ARGV;
 
 my $client = $ARGV[0];
@@ -92,7 +94,7 @@ while ( <LOGFILE> ) {
   }
 }
 
-my $delayfile = $logfile . "." . $client . ".delay";
+my $delayfile = $keyword . "." . $client . ".delay";
 open(my $delayfilehandle, '>', $delayfile) or die "Could not open file '$delayfile' $!";
 foreach(@delays) {
   printf $delayfilehandle "%f\n", $_;

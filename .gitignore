@@ -1,6 +1,7 @@
 *.o
 *.txt*
 depend
+*.delay
 
 # Binaries
 term-receive
