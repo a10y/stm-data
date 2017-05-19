@@ -1,0 +1,7 @@
+*.o
+*.txt*
+depend
+
+# Binaries
+term-receive
+term-save

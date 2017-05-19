@@ -52,7 +52,7 @@ while ( <LOGFILE> ) {
       while ( scalar @expected_user_bytes > 0 ) {
 	my $the_byte;
 	read STDIN, $the_byte, 1;
-	die unless $the_byte eq $expected_user_bytes[ 0 ];
+	# die unless $the_byte eq $expected_user_bytes[ 0 ];
 	shift @expected_user_bytes;
       }
 
