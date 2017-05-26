@@ -53,12 +53,12 @@ while ( <LOGFILE> ) {
     my $got = 0;
     WAIT: while ( 1 ) {
       my $x = $pty->read( 0.5 );
-      if ( defined $x ) {
+      if ( defined $x && length($x) > 0) {
 	$got = 1;
-	# print $x;
+	print $x;
 	if ( $timestamp - $last_user < 20000 ) {
 	  my $host_recd = Time::HiRes::time();
-	  # printf STDERR "Delay: %.10f\n", $host_recd - $last_user_sent;
+	  printf STDERR "Delay: %.10f\n", $host_recd - $last_user_sent;
           push(@delays, $host_recd - $last_user_sent);
 	  $last_user = 0;
 	}
@@ -77,7 +77,7 @@ while ( <LOGFILE> ) {
 
   if ( $tag eq "SIZE" ) {
     my ( $width, $height ) = m{SIZE (\d+) (\d+)};
-    # print STDERR "New size: $width x $height\n";
+    print STDERR "New size: $width x $height\n";
   } else {
     my ( $len ) = m{\Q$tag\E (\d+)};
     my $message;
@@ -89,7 +89,7 @@ while ( <LOGFILE> ) {
     if ( $tag eq "USER" ) {
       $pty->write( $message ) or die;
       $last_user_sent = Time::HiRes::time();
-#      print (chr 20);
+      print (chr 20);
     }
   }
 }
