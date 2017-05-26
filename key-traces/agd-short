@@ -1,0 +1,1179 @@
+7851457362 SIZE 205 55
+7851482174 HOST 64
+]0;andrew@instance-1: ~/stm-dataandrew@instance-1:~/stm-data$ 
+7852886997 USER 1
+
+7852887052 HOST 2
+
+
+7852887281 HOST 64
+]0;andrew@instance-1: ~/stm-dataandrew@instance-1:~/stm-data$ 
+7853014492 USER 1
+
+7853014538 HOST 2
+
+
+7853014762 HOST 64
+]0;andrew@instance-1: ~/stm-dataandrew@instance-1:~/stm-data$ 
+7853182356 USER 1
+l
+7853182433 HOST 1
+l
+7853270398 USER 1
+s
+7853270473 HOST 1
+s
+7853334288 USER 1
+
+7853334339 HOST 2
+
+
+7853335561 HOST 225
+depend      mysess.ssh.delay  run_mosh.sh     session_14.ssh.delay   session_4.mosh.delay  session_93.mosh.delay  swrite.cpp  [0m[01;32mterm-receive[0m      [01;32mterm-replay-client[0m  term-save.cpp  [01;34mtraces[0m
+7853335624 HOST 2
+
+
+7853335684 HOST 199
+[01;34mkey-traces[0m  run_delay.sh      run_ssh.sh      session_31.mosh.delay  session_4.ssh.delay   session_93.ssh.delay   swrite.hpp  term-receive.cpp  [01;32mterm-replay-server[0m  term-save.o
+7853335721 HOST 2
+
+
+7853335784 HOST 221
+Makefile    run_lossy.sh      [01;32mrun_verizon.sh[0m  session_31.ssh.delay   session_83.ssh.delay  [01;32mstats.pl[0m               swrite.o    term-receive.o    [01;32mterm-save[0m           [01;32mterm-send[0m
+7853335819 HOST 2
+
+
+7853336128 HOST 64
+]0;andrew@instance-1: ~/stm-dataandrew@instance-1:~/stm-data$ 
+7854326899 USER 1
+p
+7854326995 HOST 1
+p
+7854392889 USER 1
+i
+7854392960 HOST 1
+i
+7854551002 USER 1
+n
+7854551066 HOST 1
+n
+7854616311 USER 1
+g
+7854616374 HOST 1
+g
+7854678110 USER 1
+ 
+7854678172 HOST 1
+ 
+7854774365 USER 1
+g
+7854774427 HOST 1
+g
+7854839122 USER 1
+o
+7854839187 HOST 1
+o
+7854974229 USER 1
+o
+7854974296 HOST 1
+o
+7855033381 USER 1
+g
+7855033444 HOST 1
+g
+7855142218 USER 1
+l
+7855142286 HOST 1
+l
+7855190203 USER 1
+e
+7855190268 HOST 1
+e
+7855302328 USER 1
+.
+7855302392 HOST 1
+.
+7855358351 USER 1
+c
+7855358416 HOST 1
+c
+7855477852 USER 1
+o
+7855477917 HOST 1
+o
+7855550333 USER 1
+m
+7855550399 HOST 1
+m
+7855614285 USER 1
+
+7855614327 HOST 2
+
+
+7855617148 HOST 53
+PING google.com (74.125.69.102) 56(84) bytes of data.
+7855617215 HOST 2
+
+
+7855618907 HOST 83
+64 bytes from iq-in-f102.1e100.net (74.125.69.102): icmp_seq=1 ttl=53 time=0.748 ms
+7855618967 HOST 2
+
+
+7856619492 HOST 83
+64 bytes from iq-in-f102.1e100.net (74.125.69.102): icmp_seq=2 ttl=53 time=0.369 ms
+7856620741 HOST 2
+
+
+7857632460 HOST 83
+64 bytes from iq-in-f102.1e100.net (74.125.69.102): icmp_seq=3 ttl=53 time=0.344 ms
+7857632570 HOST 2
+
+
+7857662868 USER 1
+
+7857662903 HOST 2
+^C
+7857663006 HOST 2
+
+
+7857663049 HOST 34
+--- google.com ping statistics ---
+7857663089 HOST 2
+
+
+7857663125 HOST 62
+3 packets transmitted, 3 received, 0% packet loss, time 2014ms
+7857663171 HOST 2
+
+
+7857663213 HOST 49
+rtt min/avg/max/mdev = 0.344/0.487/0.748/0.184 ms
+7857663255 HOST 2
+
+
+7857663602 HOST 64
+]0;andrew@instance-1: ~/stm-dataandrew@instance-1:~/stm-data$ 
+7858207690 USER 1
+i
+7858207753 HOST 1
+i
+7858326087 USER 1
+f
+7858326148 HOST 1
+f
+7858526525 USER 1
+c
+7858526588 HOST 1
+c
+7858614106 USER 1
+o
+7858614172 HOST 1
+o
+7858677963 USER 1
+n
+7858678027 HOST 1
+n
+7858766277 USER 1
+f
+7858766339 HOST 1
+f
+7858878093 USER 1
+i
+7858878156 HOST 1
+i
+7858982300 USER 1
+g
+7858982364 HOST 1
+g
+7859591201 USER 1
+
+7859591243 HOST 2
+
+
+7859592390 HOST 57
+ens4      Link encap:Ethernet  HWaddr 42:01:0a:80:00:02  
+7859592459 HOST 2
+
+
+7859592507 HOST 70
+          inet addr:10.128.0.2  Bcast:10.128.0.2  Mask:255.255.255.255
+7859592547 HOST 2
+
+
+7859592626 HOST 57
+          inet6 addr: fe80::4001:aff:fe80:2/64 Scope:Link
+7859592670 HOST 2
+
+
+7859592716 HOST 60
+          UP BROADCAST RUNNING MULTICAST  MTU:1460  Metric:1
+7859592761 HOST 2
+
+
+7859592797 HOST 64
+          RX packets:75558 errors:0 dropped:0 overruns:0 frame:0
+7859592836 HOST 2
+
+
+7859592871 HOST 66
+          TX packets:59319 errors:0 dropped:0 overruns:0 carrier:0
+7859592911 HOST 2
+
+
+7859592936 HOST 39
+          collisions:0 txqueuelen:1000 
+7859592965 HOST 2
+
+
+7859592989 HOST 64
+          RX bytes:52716605 (52.7 MB)  TX bytes:8955366 (8.9 MB)
+7859593017 HOST 2
+
+
+7859593055 HOST 2
+
+
+7859593091 HOST 37
+lo        Link encap:Local Loopback  
+7859593133 HOST 2
+
+
+7859593161 HOST 45
+          inet addr:127.0.0.1  Mask:255.0.0.0
+7859593195 HOST 2
+
+
+7859593267 HOST 40
+          inet6 addr: ::1/128 Scope:Host
+7859593311 HOST 2
+
+
+7859593355 HOST 50
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+7859593384 HOST 2
+
+
+7859593414 HOST 62
+          RX packets:795 errors:0 dropped:0 overruns:0 frame:0
+7859593440 HOST 2
+
+
+7859593467 HOST 64
+          TX packets:795 errors:0 dropped:0 overruns:0 carrier:0
+7859593489 HOST 2
+
+
+7859593511 HOST 36
+          collisions:0 txqueuelen:1 
+7859593534 HOST 2
+
+
+7859593556 HOST 64
+          RX bytes:148213 (148.2 KB)  TX bytes:148213 (148.2 KB)
+7859593584 HOST 2
+
+
+7859593616 HOST 2
+
+
+7859593863 HOST 64
+]0;andrew@instance-1: ~/stm-dataandrew@instance-1:~/stm-data$ 
+7861054868 USER 1
+l
+7861054933 HOST 1
+l
+7861165790 USER 1
+s
+7861165853 HOST 1
+s
+7861246588 USER 1
+ 
+7861246651 HOST 1
+ 
+7861430030 USER 1
+-
+7861430108 HOST 1
+-
+7861702697 USER 1
+a
+7861703830 HOST 1
+a
+7861790066 USER 1
+h
+7861790130 HOST 1
+h
+7861958100 USER 1
+l
+7861958163 HOST 1
+l
+7862158476 USER 1
+
+7862158518 HOST 2
+
+
+7862160182 HOST 10
+total 432K
+7862160247 HOST 2
+
+
+7862160338 HOST 62
+drwxrwxr-x 5 andrew andrew 4.0K May 26 06:41 [0m[01;34m.[0m
+7862160402 HOST 2
+
+
+7862160450 HOST 59
+drwxr-xr-x 8 andrew andrew 4.0K May 26 06:40 [01;34m..[0m
+7862160492 HOST 2
+
+
+7862160538 HOST 51
+-rw-rw-r-- 1 andrew andrew   76 May 26 04:43 depend
+7862160587 HOST 2
+
+
+7862160635 HOST 61
+drwxrwxr-x 8 andrew andrew 4.0K May 26 06:03 [01;34m.git[0m
+7862160678 HOST 2
+
+
+7862160716 HOST 55
+-rw-rw-r-- 1 andrew andrew   61 May 26 04:35 .gitignore
+7862160751 HOST 2
+
+
+7862160780 HOST 67
+drwxrwxr-x 2 andrew andrew 4.0K May 26 06:41 [01;34mkey-traces[0m
+7862160806 HOST 2
+
+
+7862160834 HOST 53
+-rw-rw-r-- 1 andrew andrew  641 May 26 04:35 Makefile
+7862160870 HOST 2
+
+
+7862160922 HOST 61
+-rw-rw-r-- 1 andrew andrew   36 May 26 06:26 mysess.ssh.delay
+7862160957 HOST 2
+
+
+7862160999 HOST 57
+-rw-rw-r-- 1 andrew andrew  106 May 26 04:35 run_delay.sh
+7862161028 HOST 2
+
+
+7862161055 HOST 57
+-rw-rw-r-- 1 andrew andrew  210 May 26 04:35 run_lossy.sh
+7862161082 HOST 2
+
+
+7862161110 HOST 56
+-rw-rw-r-- 1 andrew andrew  104 May 26 04:35 run_mosh.sh
+7862161138 HOST 2
+
+
+7862161171 HOST 55
+-rw-rw-r-- 1 andrew andrew  103 May 26 04:35 run_ssh.sh
+7862161199 HOST 2
+
+
+7862161226 HOST 71
+-rwxrwxr-x 1 andrew andrew  775 May 26 06:40 [01;32mrun_verizon.sh[0m
+7862161253 HOST 2
+
+
+7862161281 HOST 65
+-rw-rw-r-- 1 andrew andrew   36 May 26 06:21 session_14.ssh.delay
+7862161306 HOST 2
+
+
+7862161334 HOST 66
+-rw-rw-r-- 1 andrew andrew   36 May 26 06:23 session_31.mosh.delay
+7862161359 HOST 2
+
+
+7862161400 HOST 65
+-rw-rw-r-- 1 andrew andrew   36 May 26 06:23 session_31.ssh.delay
+7862161426 HOST 2
+
+
+7862161454 HOST 65
+-rw-rw-r-- 1 andrew andrew   36 May 26 06:41 session_4.mosh.delay
+7862161479 HOST 2
+
+
+7862161508 HOST 64
+-rw-rw-r-- 1 andrew andrew   36 May 26 06:41 session_4.ssh.delay
+7862161533 HOST 2
+
+
+7862161561 HOST 65
+-rw-rw-r-- 1 andrew andrew   36 May 26 06:24 session_83.ssh.delay
+7862161585 HOST 2
+
+
+7862161613 HOST 66
+-rw-rw-r-- 1 andrew andrew   36 May 26 06:22 session_93.mosh.delay
+7862161637 HOST 2
+
+
+7862161665 HOST 65
+-rw-rw-r-- 1 andrew andrew   36 May 26 06:22 session_93.ssh.delay
+7862161689 HOST 2
+
+
+7862161715 HOST 65
+-rwxrwxr-x 1 andrew andrew  881 May 26 04:35 [01;32mstats.pl[0m
+7862161741 HOST 2
+
+
+7862161770 HOST 55
+-rw-rw-r-- 1 andrew andrew  554 May 26 04:35 swrite.cpp
+7862161797 HOST 2
+
+
+7862161825 HOST 55
+-rw-rw-r-- 1 andrew andrew  104 May 26 04:35 swrite.hpp
+7862161854 HOST 2
+
+
+7862161884 HOST 53
+-rw-rw-r-- 1 andrew andrew 7.6K May 26 04:43 swrite.o
+7862161910 HOST 2
+
+
+7862161937 HOST 69
+-rwxrwxr-x 1 andrew andrew  58K May 26 04:43 [01;32mterm-receive[0m
+7862161970 HOST 2
+
+
+7862162016 HOST 61
+-rw-rw-r-- 1 andrew andrew 6.6K May 26 04:35 term-receive.cpp
+7862162043 HOST 2
+
+
+7862162081 HOST 59
+-rw-rw-r-- 1 andrew andrew  82K May 26 04:43 term-receive.o
+7862162109 HOST 2
+
+
+7862162137 HOST 75
+-rwxrwxr-x 1 andrew andrew 1.9K May 26 05:57 [01;32mterm-replay-client[0m
+7862162164 HOST 2
+
+
+7862162206 HOST 75
+-rwxrwxr-x 1 andrew andrew 1.7K May 26 04:35 [01;32mterm-replay-server[0m
+7862162233 HOST 2
+
+
+7862162260 HOST 66
+-rwxrwxr-x 1 andrew andrew  60K May 26 04:43 [01;32mterm-save[0m
+7862162287 HOST 2
+
+
+7862162315 HOST 58
+-rw-rw-r-- 1 andrew andrew 6.7K May 26 04:35 term-save.cpp
+7862162340 HOST 2
+
+
+7862162369 HOST 56
+-rw-rw-r-- 1 andrew andrew  89K May 26 04:43 term-save.o
+7862162394 HOST 2
+
+
+7862162421 HOST 66
+-rwxrwxr-x 1 andrew andrew  464 May 26 04:35 [01;32mterm-send[0m
+7862162446 HOST 2
+
+
+7862162473 HOST 63
+drwxrwxr-x 2 andrew andrew 4.0K May 26 04:38 [01;34mtraces[0m
+7862162498 HOST 2
+
+
+7862162788 HOST 64
+]0;andrew@instance-1: ~/stm-dataandrew@instance-1:~/stm-data$ 
+7863119809 USER 1
+t
+7863119906 HOST 1
+t
+7863305032 USER 1
+o
+7863305098 HOST 1
+o
+7863384211 USER 1
+p
+7863384276 HOST 1
+p
+7863558914 USER 1
+
+7863558955 HOST 2
+
+
+7863561030 HOST 13
+[?1h=[?25l
+7863714831 HOST 110
+[H[2J(B[mtop - 06:42:06 up  2:11,  2 users,  load average: 0.04, 0.03, 0.01(B[m[39;49m(B[m[39;49m[K
+7863714987 HOST 2
+
+
+7863715030 HOST 259
+Tasks:(B[m[39;49m[1m 107 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 106 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+7863715090 HOST 2
+
+
+7863715260 HOST 366
+%Cpu(s):(B[m[39;49m[1m  2.3 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.1 (B[m[39;49mni,(B[m[39;49m[1m 96.2 (B[m[39;49mid,(B[m[39;49m[1m  0.3 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+7863715326 HOST 2
+
+
+7863715363 HOST 234
+KiB Mem :(B[m[39;49m[1m  3788248 (B[m[39;49mtotal,(B[m[39;49m[1m  2773468 (B[m[39;49mfree,(B[m[39;49m[1m   115188 (B[m[39;49mused,(B[m[39;49m[1m   899592 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+7863715412 HOST 2
+
+
+7863715448 HOST 234
+KiB Swap:(B[m[39;49m[1m        0 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  3368976 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+7863715494 HOST 2
+
+
+7863715528 HOST 3
+[K
+7863715559 HOST 2
+
+
+7863715580 HOST 226
+[7m  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND                                                                                                                                   (B[m[39;49m[K
+7863715631 HOST 2
+
+
+7863715652 HOST 228
+(B[m    1 root      20   0   37676   5852   4108 S  0.0  0.2   0:02.57 systemd                                                                                                                                   (B[m[39;49m[K
+7863715711 HOST 2
+
+
+7863715747 HOST 228
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd                                                                                                                                  (B[m[39;49m[K
+7863715791 HOST 2
+
+
+7863715828 HOST 228
+(B[m    3 root      20   0       0      0      0 S  0.0  0.0   0:00.20 ksoftirqd/0                                                                                                                               (B[m[39;49m[K
+7863715860 HOST 2
+
+
+7863715880 HOST 228
+(B[m    5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H                                                                                                                              (B[m[39;49m[K
+7863715920 HOST 2
+
+
+7863715942 HOST 64
+(B[m    7 root      20   0       0      0      0 S  0.0  0.0  
+7863716077 HOST 164
+ 0:00.23 rcu_sched                                                                                                                                 (B[m[39;49m[K
+7863716112 HOST 2
+
+
+7863716137 HOST 228
+(B[m    8 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh                                                                                                                                    (B[m[39;49m[K
+7863716188 HOST 2
+
+
+7863716209 HOST 228
+(B[m    9 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0                                                                                                                               (B[m[39;49m[K
+7863716239 HOST 2
+
+
+7863716260 HOST 228
+(B[m   10 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 lru-add-drain                                                                                                                             (B[m[39;49m[K
+7863716290 HOST 2
+
+
+7863716310 HOST 228
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.01 watchdog/0                                                                                                                                (B[m[39;49m[K
+7863716336 HOST 2
+
+
+7863716363 HOST 228
+(B[m   12 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0                                                                                                                                   (B[m[39;49m[K
+7863716407 HOST 2
+
+
+7863716437 HOST 228
+(B[m   13 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs                                                                                                                                 (B[m[39;49m[K
+7863716468 HOST 2
+
+
+7863716488 HOST 228
+(B[m   14 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 netns                                                                                                                                     (B[m[39;49m[K
+7863716513 HOST 2
+
+
+7863716532 HOST 228
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd                                                                                                                                (B[m[39;49m[K
+7863716634 HOST 2
+
+
+7863716656 HOST 51
+(B[m   16 root      20   0       0      0      0 
+7863716741 HOST 177
+S  0.0  0.0   0:00.00 oom_reaper                                                                                                                                (B[m[39;49m[K
+7863716772 HOST 2
+
+
+7863716793 HOST 228
+(B[m   17 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 writeback                                                                                                                                 (B[m[39;49m[K
+7863716818 HOST 2
+
+
+7863716838 HOST 228
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kcompactd0                                                                                                                                (B[m[39;49m[K
+7863716865 HOST 2
+
+
+7863716885 HOST 228
+(B[m   19 root      25   5       0      0      0 S  0.0  0.0   0:00.00 ksmd                                                                                                                                      (B[m[39;49m[K
+7863716921 HOST 2
+
+
+7863716942 HOST 228
+(B[m   20 root      39  19       0      0      0 S  0.0  0.0   0:00.06 khugepaged                                                                                                                                (B[m[39;49m[K
+7863716971 HOST 2
+
+
+7863716991 HOST 228
+(B[m   21 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 crypto                                                                                                                                    (B[m[39;49m[K
+7863717016 HOST 2
+
+
+7863717036 HOST 228
+(B[m   22 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kintegrityd                                                                                                                               (B[m[39;49m[K
+7863717062 HOST 2
+
+
+7863717081 HOST 228
+(B[m   23 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                                                    (B[m[39;49m[K
+7863717114 HOST 2
+
+
+7863717135 HOST 228
+(B[m   24 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kblockd                                                                                                                                   (B[m[39;49m[K
+7863717160 HOST 2
+
+
+7863717180 HOST 38
+(B[m   25 root       0 -20       0  
+7863717271 HOST 190
+    0      0 S  0.0  0.0   0:00.00 ata_sff                                                                                                                                   (B[m[39;49m[K
+7863717307 HOST 2
+
+
+7863717328 HOST 228
+(B[m   26 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 md                                                                                                                                        (B[m[39;49m[K
+7863717352 HOST 2
+
+
+7863717372 HOST 228
+(B[m   27 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 devfreq_wq                                                                                                                                (B[m[39;49m[K
+7863717404 HOST 2
+
+
+7863717424 HOST 228
+(B[m   28 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 watchdogd                                                                                                                                 (B[m[39;49m[K
+7863717449 HOST 2
+
+
+7863717469 HOST 228
+(B[m   32 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kswapd0                                                                                                                                   (B[m[39;49m[K
+7863717493 HOST 2
+
+
+7863717513 HOST 228
+(B[m   33 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 vmstat                                                                                                                                    (B[m[39;49m[K
+7863717540 HOST 2
+
+
+7863717560 HOST 228
+(B[m   34 root      20   0       0      0      0 S  0.0  0.0   0:00.00 ecryptfs-kthrea                                                                                                                           (B[m[39;49m[K
+7863717587 HOST 2
+
+
+7863717607 HOST 228
+(B[m   73 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kthrotld                                                                                                                                  (B[m[39;49m[K
+7863717631 HOST 2
+
+
+7863717651 HOST 228
+(B[m   74 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 acpi_thermal_pm                                                                                                                           (B[m[39;49m[K
+7863717678 HOST 2
+
+
+7863717697 HOST 25
+(B[m   75 root       0 
+7863717781 HOST 203
+-20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                                                    (B[m[39;49m[K
+7863717806 HOST 2
+
+
+7863717827 HOST 228
+(B[m   76 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                                                    (B[m[39;49m[K
+7863717849 HOST 2
+
+
+7863717869 HOST 228
+(B[m   77 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                                                    (B[m[39;49m[K
+7863717891 HOST 2
+
+
+7863717922 HOST 228
+(B[m   78 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                                                    (B[m[39;49m[K
+7863717946 HOST 2
+
+
+7863717965 HOST 228
+(B[m   79 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                                                    (B[m[39;49m[K
+7863717998 HOST 2
+
+
+7863718018 HOST 228
+(B[m   80 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                                                    (B[m[39;49m[K
+7863718048 HOST 2
+
+
+7863718069 HOST 228
+(B[m   81 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                                                    (B[m[39;49m[K
+7863718091 HOST 2
+
+
+7863718111 HOST 228
+(B[m   82 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                                                    (B[m[39;49m[K
+7863718133 HOST 2
+
+
+7863718152 HOST 228
+(B[m   86 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 ipv6_addrconf                                                                                                                             (B[m[39;49m[K
+7863718177 HOST 2
+
+
+7863718197 HOST 12
+(B[m  108 
+7863718269 HOST 216
+root       0 -20       0      0      0 S  0.0  0.0   0:00.00 deferwq                                                                                                                                   (B[m[39;49m[K
+7863718297 HOST 2
+
+
+7863718322 HOST 228
+(B[m  109 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 charger_manager                                                                                                                           (B[m[39;49m[K
+7863718349 HOST 2
+
+
+7863718378 HOST 228
+(B[m  152 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kpsmoused                                                                                                                                 (B[m[39;49m[K
+7863718414 HOST 2
+
+
+7863718434 HOST 228
+(B[m  156 root      20   0       0      0      0 S  0.0  0.0   0:00.00 scsi_eh_0                                                                                                                                 (B[m[39;49m[K
+7863718460 HOST 2
+
+
+7863718480 HOST 228
+(B[m  162 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 scsi_tmf_0                                                                                                                                (B[m[39;49m[K
+7863718503 HOST 2
+
+
+7863718523 HOST 228
+(B[m  187 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                                                    (B[m[39;49m[K
+7863718545 HOST 2
+
+
+7863718565 HOST 228
+(B[m  517 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 raid5wq                                                                                                                                   (B[m[39;49m[K
+7863718588 HOST 2
+
+
+7863718608 HOST 228
+(B[m  547 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 bioset                                                                                                                                    (B[m[39;49m[K
+7865321128 USER 1
+q
+7865321200 HOST 14
+[?1l>[56;1H
+7865321278 HOST 2
+
+
+7865321318 HOST 15
+[?12l[?25h[K
+7865321850 HOST 64
+]0;andrew@instance-1: ~/stm-dataandrew@instance-1:~/stm-data$ 
+7866510971 USER 1
+i
+7866511041 HOST 1
+i
+7866645935 USER 1
+m
+7866645996 HOST 1
+m
+7866959186 USER 1
+
+7866959267 HOST 4
+[K
+7867102632 USER 1
+
+7867102695 HOST 4
+[K
+7867350422 USER 1
+v
+7867350487 HOST 1
+v
+7867656028 USER 1
+i
+7867656097 HOST 1
+i
+7867837817 USER 1
+m
+7867837882 HOST 1
+m
+7868142200 USER 1
+
+7868142269 HOST 4
+[K
+7868462327 USER 1
+
+7868462395 HOST 4
+[K
+7868629785 USER 1
+
+7868629846 HOST 4
+[K
+7869181713 USER 1
+l
+7869181776 HOST 1
+l
+7869333732 USER 1
+s
+7869333795 HOST 1
+s
+7869494609 USER 1
+l
+7869494693 HOST 1
+l
+7869638595 USER 1
+e
+7869638662 HOST 1
+e
+7869813544 USER 1
+l
+7869813607 HOST 1
+l
+7869981496 USER 1
+e
+7869981562 HOST 1
+e
+7870149762 USER 1
+l
+7870149827 HOST 1
+l
+7870477586 USER 1
+l
+7870477655 HOST 1
+l
+7870645539 USER 1
+r
+7870645614 HOST 1
+r
+7870806057 USER 1
+l
+7870806131 HOST 1
+l
+7871125662 USER 1
+o
+7871125731 HOST 1
+o
+7871469769 USER 1
+
+7871469836 HOST 14
+[K
+7872361935 USER 1
+p
+7872363230 HOST 1
+p
+7872438516 USER 1
+i
+7872438579 HOST 1
+i
+7872630594 USER 1
+n
+7872630661 HOST 1
+n
+7872765868 USER 1
+g
+7872765955 HOST 1
+g
+7872845811 USER 1
+ 
+7872845878 HOST 1
+ 
+7873190148 USER 1
+g
+7873190210 HOST 1
+g
+7873341850 USER 1
+g
+7873341915 HOST 1
+g
+7873607230 USER 1
+u
+7873607294 HOST 1
+u
+7873750164 USER 1
+g
+7873750232 HOST 1
+g
+7873789750 USER 1
+u
+7873789817 HOST 1
+u
+7874078300 USER 1
+
+7874078372 HOST 13
+[K
+7874894368 USER 1
+i
+7874894435 HOST 1
+i
+7874981722 USER 1
+f
+7874981788 HOST 1
+f
+7875173644 USER 1
+c
+7875173712 HOST 1
+c
+7875261337 USER 1
+o
+7875261408 HOST 1
+o
+7875309613 USER 1
+n
+7875309678 HOST 1
+n
+7875382410 USER 1
+f
+7875382481 HOST 1
+f
+7875501354 USER 1
+i
+7875501424 HOST 1
+i
+7875565653 USER 1
+g
+7875565722 HOST 1
+g
+7875878714 USER 1
+
+7875879021 HOST 2
+
+
+7875879822 HOST 57
+ens4      Link encap:Ethernet  HWaddr 42:01:0a:80:00:02  
+7875879894 HOST 2
+
+
+7875879947 HOST 70
+          inet addr:10.128.0.2  Bcast:10.128.0.2  Mask:255.255.255.255
+7875879987 HOST 2
+
+
+7875880090 HOST 57
+          inet6 addr: fe80::4001:aff:fe80:2/64 Scope:Link
+7875880136 HOST 2
+
+
+7875880186 HOST 60
+          UP BROADCAST RUNNING MULTICAST  MTU:1460  Metric:1
+7875880228 HOST 2
+
+
+7875880267 HOST 64
+          RX packets:75708 errors:0 dropped:0 overruns:0 frame:0
+7875880315 HOST 2
+
+
+7875880351 HOST 66
+          TX packets:59413 errors:0 dropped:0 overruns:0 carrier:0
+7875880379 HOST 2
+
+
+7875880403 HOST 39
+          collisions:0 txqueuelen:1000 
+7875880426 HOST 2
+
+
+7875880449 HOST 64
+          RX bytes:52728581 (52.7 MB)  TX bytes:8973050 (8.9 MB)
+7875880477 HOST 2
+
+
+7875880498 HOST 2
+
+
+7875880527 HOST 37
+lo        Link encap:Local Loopback  
+7875880551 HOST 2
+
+
+7875880575 HOST 45
+          inet addr:127.0.0.1  Mask:255.0.0.0
+7875880603 HOST 2
+
+
+7875880650 HOST 40
+          inet6 addr: ::1/128 Scope:Host
+7875880677 HOST 2
+
+
+7875880708 HOST 50
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+7875880733 HOST 2
+
+
+7875880757 HOST 62
+          RX packets:795 errors:0 dropped:0 overruns:0 frame:0
+7875880780 HOST 2
+
+
+7875880802 HOST 64
+          TX packets:795 errors:0 dropped:0 overruns:0 carrier:0
+7875880831 HOST 2
+
+
+7875880855 HOST 36
+          collisions:0 txqueuelen:1 
+7875880886 HOST 2
+
+
+7875880911 HOST 64
+          RX bytes:148213 (148.2 KB)  TX bytes:148213 (148.2 KB)
+7875880934 HOST 2
+
+
+7875880954 HOST 2
+
+
+7875881195 HOST 64
+]0;andrew@instance-1: ~/stm-dataandrew@instance-1:~/stm-data$ 
+7878673194 USER 1
+c
+7878673261 HOST 1
+c
+7878710986 USER 1
+d
+7878711075 HOST 1
+d
+7878775261 USER 1
+ 
+7878775331 HOST 1
+ 
+7878836917 USER 1
+/
+7878836995 HOST 1
+/
+7878933399 USER 1
+t
+7878933463 HOST 1
+t
+7879014299 USER 1
+m
+7879014397 HOST 1
+m
+7879109599 USER 1
+	
+7879112654 HOST 2
+p/
+7879197623 USER 1
+
+7879197669 HOST 2
+
+
+7879197942 HOST 52
+]0;andrew@instance-1: /tmpandrew@instance-1:/tmp$ 
+7880333364 USER 1
+v
+7880333447 HOST 1
+v
+7880374183 USER 1
+i
+7880374261 HOST 1
+i
+7880445182 USER 1
+m
+7880445262 HOST 1
+m
+7880525328 USER 1
+ 
+7880525397 HOST 1
+ 
+7880653164 USER 1
+t
+7880653232 HOST 1
+t
+7880757969 USER 1
+e
+7880758038 HOST 1
+e
+7880798638 USER 1
+s
+7880798730 HOST 1
+s
+7880853421 USER 1
+t
+7880853489 HOST 1
+t
+7880957443 USER 1
+.
+7880957511 HOST 1
+.
+7881133104 USER 1
+p
+7881133176 HOST 1
+p
+7881237611 USER 1
+y
+7881237673 HOST 1
+y
+7884069622 USER 1
+
+7884069699 HOST 2
+^C
+7884069745 HOST 2
+
+
+7884069862 HOST 52
+]0;andrew@instance-1: /tmpandrew@instance-1:/tmp$ 
+7884373602 USER 1
+e
+7884373666 HOST 1
+e
+7884453702 USER 1
+x
+7884453765 HOST 1
+x
+7884510494 USER 1
+i
+7884510556 HOST 1
+i
+7884596981 USER 1
+t
+7884597049 HOST 1
+t
+7884717236 USER 1
+
+7884717278 HOST 2
+
+
+7884717353 HOST 4
+exit
+7884717364 HOST 2
+
+

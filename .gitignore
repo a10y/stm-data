@@ -2,6 +2,7 @@
 *.txt*
 depend
 *.delay
+*.png
 
 # Binaries
 term-receive

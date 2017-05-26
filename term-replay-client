@@ -16,6 +16,8 @@ my $keyword = shift;
 
 my $command = join " ", @ARGV;
 
+printf "Command: \"%s\"\n", $command;
+
 my $client = $ARGV[0];
 
 my $pty = new IO::Pty::Easy;
