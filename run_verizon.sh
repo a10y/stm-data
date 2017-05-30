@@ -1,5 +1,5 @@
 #!/bin/bash
-# Usage: sh run_verizon.sh <mosh or ssh> <keyword> <input trace file>
+# Usage: ./run_verizon.sh <input trace file>
 
 # Fail quickly
 set -eu -o pipefail
