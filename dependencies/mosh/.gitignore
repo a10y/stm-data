@@ -5,6 +5,8 @@
 .deps
 Makefile
 Makefile.in
+compile
+test-driver
 .cproject
 .project
 
