@@ -60,7 +60,7 @@ while ( <LOGFILE> ) {
 	print $x;
 	if ( $timestamp - $last_user < 20000 ) {
 	  my $host_recd = Time::HiRes::time();
-	  printf STDERR "Delay: %.10f\n", $host_recd - $last_user_sent;
+	  #printf STDERR "Delay: %.10f\n", $host_recd - $last_user_sent;
           push(@delays, $host_recd - $last_user_sent);
 	  $last_user = 0;
 	}
