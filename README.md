@@ -59,13 +59,14 @@ ens4      Link encap:Ethernet  HWaddr 42:01:0a:80:00:02
 Your IP address is `10.128.0.2`. Save this to your environment:
 
 ```
-export SSH_IP=1.2.3.4 # Use the IP address from ifconfig
+export SSHIP=1.2.3.4 # Use the IP address from ifconfig
 ```
 
 Then, invoke the run_verizon.sh script:
 
 ```
-./run_verizon.sh key-traces/
+./run_high_delay.sh
+./run_high_loss.sh
 ```
 
 

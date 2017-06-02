@@ -16,9 +16,7 @@ if [[ -z ${SSHIP+x} ]]; then
 fi
 
 
-SESS="session_$((RANDOM % 1000))"
-
-echo "Session: $SESS"
+SESS="high_delay"
 
 # Run the SSH script
 echo "Running SSH simulation:"

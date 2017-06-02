@@ -1,5 +1,5 @@
 #!/bin/bash
-# Usage: ./run_verizon.sh <input trace file>
+# Usage: ./run_high_loss.sh
 
 # Fail quickly
 set -eu -o pipefail
@@ -16,14 +16,12 @@ if [[ -z ${SSHIP+x} ]]; then
 fi
 
 
-SESS="session_$((RANDOM % 1000))"
-
-echo "Session: $SESS"
+SESS="high_loss"
 
 # Run the SSH script
-mm-delay 100 mm-link ./traces/Verizon-LTE-short.up ./traces/Verizon-LTE-short.down ./term-replay-client $1 $SESS ssh $SSHIP ~/stm-data/term-replay-server ~/stm-data/$1
+mm-delay 50 mm-loss uplink 0.29 mm-loss downlink 0.29 ./term-replay-client key-traces/agd-short $SESS ssh $SSHIP ~/stm-data/term-replay-server ~/stm-data/key-traces/agd-short
 
 # Run the Mosh script
-mm-delay 100 mm-link ./traces/Verizon-LTE-short.up ./traces/Verizon-LTE-short.down ./term-replay-client $1 $SESS mosh "$SSHIP -- sh -c \"cd stm-data && ./term-replay-server $1\""
+mm-delay 50 mm-loss uplink 0.29 mm-loss downlink 0.29 ./term-replay-client key-traces/agd-short $SESS mosh "$SSHIP -- sh -c \"cd stm-data && ./term-replay-server key-traces/agd-short\""
 
 echo "Saved Session: $SESS"
