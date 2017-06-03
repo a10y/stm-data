@@ -1,5 +1,5 @@
 #!/bin/bash
-# Usage: ./run_verizon.sh <input trace file>
+# Usage: ./run_verizon.sh
 
 # Fail quickly
 set -eu -o pipefail
@@ -16,14 +16,14 @@ if [[ -z ${SSHIP+x} ]]; then
 fi
 
 
-SESS="session_$((RANDOM % 1000))"
+SESS="figure2"
 
 echo "Session: $SESS"
 
 # Run the SSH script
-mm-delay 100 mm-link ./traces/Verizon-LTE-short.up ./traces/Verizon-LTE-short.down ./term-replay-client $1 $SESS ssh $SSHIP ~/stm-data/term-replay-server ~/stm-data/$1
+mm-delay 250 mm-link ./traces/Verizon-LTE-short.up ./traces/Verizon-LTE-short.down ./term-replay-client key-traces/agd-trace-01 $SESS ssh $SSHIP ~/stm-data/term-replay-server ~/stm-data/key-traces/agd-trace-01
 
 # Run the Mosh script
-mm-delay 100 mm-link ./traces/Verizon-LTE-short.up ./traces/Verizon-LTE-short.down ./term-replay-client $1 $SESS mosh "$SSHIP -- sh -c \"cd stm-data && ./term-replay-server $1\""
+mm-delay 250 mm-link ./traces/Verizon-LTE-short.up ./traces/Verizon-LTE-short.down ./term-replay-client key-traces/agd-trace-01 $SESS mosh "$SSHIP -- sh -c \"cd stm-data && ./term-replay-server key-traces/agd-trace-01\""
 
 echo "Saved Session: $SESS"
