@@ -19,9 +19,9 @@ fi
 SESS="high_loss"
 
 # Run the SSH script
-mm-delay 50 mm-loss uplink 0.29 mm-loss downlink 0.29 ./term-replay-client key-traces/agd-short $SESS ssh $SSHIP ~/stm-data/term-replay-server ~/stm-data/key-traces/agd-short
+mm-delay 50 mm-loss uplink 0.29 mm-loss downlink 0.29 ./term-replay-client key-traces/agd-trace-01 $SESS ssh $SSHIP ~/stm-data/term-replay-server ~/stm-data/key-traces/agd-trace-01
 
 # Run the Mosh script
-mm-delay 50 mm-loss uplink 0.29 mm-loss downlink 0.29 ./term-replay-client key-traces/agd-short $SESS mosh -n "$SSHIP -- sh -c \"cd stm-data && ./term-replay-server key-traces/agd-short\""
+mm-delay 50 mm-loss uplink 0.29 mm-loss downlink 0.29 ./term-replay-client key-traces/agd-trace-01 $SESS mosh -n "$SSHIP -- sh -c \"cd stm-data && ./term-replay-server key-traces/agd-trace-01\""
 
 echo "Saved Session: $SESS"
