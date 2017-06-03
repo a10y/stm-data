@@ -20,10 +20,10 @@ SESS="high_delay"
 
 # Run the SSH script
 echo "Running SSH simulation:"
-mm-delay 2500 mm-link ./traces/Verizon-LTE-short.up ./traces/Verizon-LTE-short.down ./term-replay-client key-traces/agd-trace-01 $SESS ssh $SSHIP ~/stm-data/term-replay-server ~/stm-data/key-traces/agd-trace-01
+mm-delay 2500 mm-link ./traces/Verizon-LTE-short.up ./traces/Verizon-LTE-short.down ./term-replay-client key-traces/agd-long $SESS ssh $SSHIP ~/stm-data/term-replay-server ~/stm-data/key-traces/agd-long
 
 # Run the Mosh script
 echo "Running Mosh simulation:"
-mm-delay 2500 mm-link ./traces/Verizon-LTE-short.up ./traces/Verizon-LTE-short.down ./term-replay-client key-traces/agd-trace-01 $SESS mosh "$SSHIP -- sh -c \"cd stm-data && ./term-replay-server key-traces/agd-trace-01\""
+mm-delay 2500 mm-link ./traces/Verizon-LTE-short.up ./traces/Verizon-LTE-short.down ./term-replay-client key-traces/agd-long $SESS mosh "$SSHIP -- sh -c \"cd stm-data && ./term-replay-server key-traces/agd-long\""
 
 echo "Saved Session: $SESS"
