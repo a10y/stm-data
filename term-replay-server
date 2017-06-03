@@ -31,7 +31,7 @@ while ( <LOGFILE> ) {
   my $elapsed_time = $timestamp - $last_timestamp;
   die unless $elapsed_time >= 0;
 
-#  print STDERR "$tag after $elapsed_time us\n";
+  print STDERR "$tag after $elapsed_time us\n";
 
   if ( $tag eq "SIZE" ) {
     my ( $width, $height ) = m{SIZE (\d+) (\d+)};
@@ -54,6 +54,9 @@ while ( <LOGFILE> ) {
 	read STDIN, $the_byte, 1;
 	# die unless $the_byte eq $expected_user_bytes[ 0 ];
 	shift @expected_user_bytes;
+
+	# Flush writes to terminal
+	printf STDERR " ";
       }
 
       $elapsed_time = 0;

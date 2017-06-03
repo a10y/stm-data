@@ -1,7 +1,8 @@
 #!/usr/bin/perl -w
 
-use strict;
+use IO::Handle;
 use IO::Pty::Easy;
+use strict;
 use Time::HiRes;
 
 use bytes;
@@ -44,7 +45,9 @@ my $last_user = 0;
 
 my $last_user_sent = 0;
 
-my @delays = ();
+my $delayfile = $keyword . "." . $client . ".delay";
+open(my $delayfilehandle, '>', $delayfile) or die "Could not open file '$delayfile' $!";
+$delayfilehandle->autoflush;
 
 while ( <LOGFILE> ) {
   chomp;
@@ -61,7 +64,7 @@ while ( <LOGFILE> ) {
 	if ( $timestamp - $last_user < 20000 ) {
 	  my $host_recd = Time::HiRes::time();
 	  printf STDERR "Delay: %.10f\n", $host_recd - $last_user_sent;
-          push(@delays, $host_recd - $last_user_sent);
+	  printf $delayfilehandle "%f\n", $host_recd - $last_user_sent;
 	  $last_user = 0;
 	}
       } else {
@@ -96,9 +99,4 @@ while ( <LOGFILE> ) {
   }
 }
 
-my $delayfile = $keyword . "." . $client . ".delay";
-open(my $delayfilehandle, '>', $delayfile) or die "Could not open file '$delayfile' $!";
-foreach(@delays) {
-  printf $delayfilehandle "%f\n", $_;
-}
 close($delayfilehandle);
