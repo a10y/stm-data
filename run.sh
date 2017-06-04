@@ -16,5 +16,8 @@ echo "Running high delay"
 echo "Running high loss"
 ./run_high_loss.sh
 
+echo "Running adversarial"
+./run_adversarial.sh
+
 echo "Generating plots..."
 python plots.py
