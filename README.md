@@ -16,7 +16,7 @@ Go to Google Cloud and setup an instance with the following:
 SSH into that machine after it comes up, and clone this repository:
 
 ```
-git clone git@github.com:a10y/stm-data.git
+git clone https://github.com/a10y/stm-data.git
 cd ./stm-data
 ```
 
