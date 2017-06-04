@@ -1,9 +1,26 @@
 # Reproducing Mosh Results
 ---
 
+0. VM setup
 1. Install Dependencies
 2. Build & Install Mosh + MahiMahi
 3. Run our scripts to reproduce the results
+
+## 0. VM setup
+
+Go to Google Cloud and setup an instance with the following:
+
+* 1 vCPU
+* Boot disk: Ubuntu 16.04 LTS
+
+SSH into that machine after it comes up, and clone this repository:
+
+```
+git clone git@github.com:a10y/stm-data.git
+cd ./stm-data
+```
+
+The rest of the instructions assume you are in the stm-data directory.
 
 ## 1. Install Required Dependencies + Build
 
