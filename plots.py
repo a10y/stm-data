@@ -41,6 +41,6 @@ def gen_plot(session, scale, title):
     plt.savefig('%s-plot.png' % session)
 
 gen_plot('high_delay', [0.0, 7.0, 0, 1.0], 'Cumulative distribution of keystroke response times with 5s RTT')
-gen_plot('high_loss', [0.0, 2.0, 0, 1.0], 'Cumulative distribution of keystroke response times with 50% round-trip loss and no Mosh speculation')
-gen_plot('figure2', [0.0, 1.0, 0, 1.0], 'Cumulative distribution of keystroke response times with 500ms RTT and Verizon LTE Characteristics')
-gen_plot('adversarial', [0.0, 1.0, 0, 1.0], 'Cumulative distribution of keystroke response times with an adversarial key-trace')
+gen_plot('high_loss', [0.0, 2.0, 0, 1.0], 'Cumulative distribution of keystroke response times with\n50% round-trip loss and no Mosh speculation')
+gen_plot('figure2', [0.0, 1.0, 0, 1.0], 'Cumulative distribution of keystroke response times with\n500ms RTT and Verizon LTE Characteristics')
+gen_plot('adversarial', [0.0, 1.0, 0, 1.0], 'Cumulative distribution of keystroke response times with\nan adversarial key-trace')
