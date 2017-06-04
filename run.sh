@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Fail quickly
+set -eu -o pipefail
+
 # Run all of the scripts
 echo "Running Figure 2"
 ./run_verizon.sh

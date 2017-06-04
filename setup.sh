@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
-
 # Run this script before run.sh
+
+# Fail quickly
+set -eu -o pipefail
+
 
 # Install all the dependencies via aptitude on Ubuntu
 echo "Installing package (may prompt for password)"
