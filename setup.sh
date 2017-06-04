@@ -6,7 +6,7 @@ set -eu -o pipefail
 
 # Update system first
 echo "Running update+upgrade before fetching dependencies"
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update && sudo apt-get -y upgrade
 
 # Install all the dependencies via aptitude on Ubuntu
 echo "Installing package (may prompt for password)"
