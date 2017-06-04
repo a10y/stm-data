@@ -51,4 +51,4 @@ def gen_plot(session, scale):
 
 gen_plot('high_delay', [0.0, 7.0, 0, 1.0])
 gen_plot('high_loss', [0.0, 4.0, 0, 1.0])
-gen_plot('figure2', [0.0, 1.0, 0, 1.0]))
+gen_plot('figure2', [0.0, 1.0, 0, 1.0])
