@@ -5,41 +5,16 @@
 2. Build & Install Mosh + MahiMahi
 3. Run our scripts to reproduce the results
 
-## 1. Install Required Dependencies
+## 1. Install Required Dependencies + Build
 
-SSH into the GCE box, and run the following commands to install all dependencies:
-
-```
-# Build dependencies for Mosh + MahiMahi + stm-data
-sudo apt-get install -y automake libtool g++ protobuf-compiler libprotobuf-dev \
-                        libboost-dev libutempter-dev libncurses5-dev zlib1g-dev \
-                        libio-pty-easy-perl libssl-dev pkg-config iptables \
-                        dnsmasq-base apache2-bin apache2-dev autotools-dev \
-                        dh-autoreconf iptables protobuf-compiler libprotobuf-dev \
-                        pkg-config libssl-dev dnsmasq-base ssl-cert \
-                        libxcb-present-dev libcairo2-dev libpango1.0-dev \
-                        iproute2 apache2-dev apache2-bin python-numpy \
-                        python-matplotlib
-```
-
-You'll also want to setup passwordless SSH:
+This is handled in a single script which downloads all dependencies, builds
+the projects and sets up no-password SSH using public key auth
 
 ```
-ssh-keygen -t rsa -b 4096 # Hit enter at all the prompts
-cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+./setup.sh
 ```
 
-## 2. Build & Install Mosh + MahiMahi
-
-```
-# Make the stm-data repo
-
-(cd ./dependencies/mosh && ./autogen.sh && ./configure && make && sudo make install)
-(cd ./dependencies/mahimahi && ./autogen.sh && ./configure && make && sudo make install)
-make
-```
-
-## 3. Run the Scripts
+## 2. Extra setup
 
 Gather the IP address of the machine, using `ifconfig`. As an example, if you run
 
@@ -62,20 +37,37 @@ Your IP address is `10.128.0.2`. Save this to your environment:
 export SSHIP=1.2.3.4 # Use the IP address from ifconfig
 ```
 
-Then, invoke the run_verizon.sh script:
+**IMPORTANT**: SSH the first time by hand to the `$SSHIP`:
 
 ```
-./run_high_delay.sh
-./run_high_loss.sh
+ssh $SSHIP    # Say "yes" to accept the host key
 ```
 
+## 3. Run the Scripts
 
-## 4. Notes
-
-Cleaning up Mosh processes:
-
-The following command will kill all running Mosh processes on the machine:
+Run all the scripts and generate the plots:
 
 ```
-pkill mosh-server
+./run.sh   # Runs all scripts, dumps plots.
 ```
+
+The following plots will be generated in this directory:
+
+* `figure2-plot.png`
+* `high_delay-plot.png`
+* `high_loss-plot.png`
+
+You're going to want to SCP those back to your machine to view them.
+
+To see statistical information about the high_delay and high_loss similar
+to what's in the tables in section 4, run the following two commands:
+
+```
+# Stats for high delay
+./stats.pl high_delay.mosh.delay
+./stats.pl high_delay.ssh.delay
+
+./stats.pl high_loss.mosh.delay
+./stats.pl high_loss.ssh.delay
+```
+
