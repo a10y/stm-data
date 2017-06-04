@@ -67,6 +67,7 @@ to what's in the tables in section 4, run the following two commands:
 ./stats.pl high_delay.mosh.delay
 ./stats.pl high_delay.ssh.delay
 
+# Stats for high loss
 ./stats.pl high_loss.mosh.delay
 ./stats.pl high_loss.ssh.delay
 ```
